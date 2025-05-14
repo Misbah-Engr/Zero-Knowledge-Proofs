@@ -7,7 +7,7 @@ When I was learning Finite fields, I learned an interesting theory, Fermatt's Li
 ## Note
 This is not a secure audited code, it is only done for illustration purpose and the math is correct but it might have issues if it were to be used onchain.
 
-```
+```solidity
 // I want to create a function that returns the multiplicative inverse of an element in a prime field.
 
 // Just like Python's pow(a, -1, p) will do
