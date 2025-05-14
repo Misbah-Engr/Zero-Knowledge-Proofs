@@ -22,6 +22,10 @@ function findMul_Inv(uint256 element, uint256 field) public pure returns(uint256
     uint256 subRes = field - 2;
     uint256 Mul_Inv = (element**(subRes)) % field;
 
+if ((Mul_Inv * element) % field) != 1 {
+    revert("incorrect multiplicative inverse");
+}
+
 return Mul_Inv;
 }
 
