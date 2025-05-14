@@ -19,7 +19,7 @@ contract FinitePlayGround {
 function findMul_Inv(uint256 element, uint256 field) public pure returns(uint256) {
 
     require(element > 0 && element < field && isPrime(field) == true);
-    uint256 subRes = field -2;
+    uint256 subRes = field - 2;
     uint256 Mul_Inv = (element**(subRes)) % field;
 
 return Mul_Inv;
@@ -37,3 +37,5 @@ function isPrime(uint256 p) internal pure returns (bool) {
 
 
 ```
+
+#### Thank you, Rareskills
