@@ -2,7 +2,7 @@ Hey guys,
 
 I will not detail my today's learning in this note. It will be in Note7.
 
-When I was learning Finite fields, I learned an interesting theory, Fermatt's Little Theorem and its application in finding the multiplicative inverse of an element of a prie field, so, I tried implementing its function in a solidity contract.
+When I was learning Finite fields, I learned an interesting theory, Fermatt's Little Theorem and its application in finding the multiplicative inverse of an element of a prime field, so, I tried implementing its function in a solidity contract.
 
 ## Note
 This is not a secure audited code, it is only done for illustration purpose and the math is correct but it might have issues if it were to be used onchain.
